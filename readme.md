@@ -23,7 +23,7 @@
    - Download from Chrome Web Store (coming soon)
    - Or load unpacked extension:
      ```bash
-     git clone https://github.com/yourusername/linkedin-auto-accept
+     git clone https://github.com/malik0011/Auto-Accpet-All-Connection-Request.git
      ```
    - Open Chrome → Extensions → Enable Developer Mode
    - Click "Load unpacked" → Select the extension directory
