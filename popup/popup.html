@@ -4,14 +4,24 @@
   <meta charset="UTF-8">
   <title>LinkedIn Auto Accept</title>
   <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <h1>LinkedIn Auto Accept</h1>
+    <div class="header">
+      <h1>LinkedIn Auto Accept</h1>
+      <div class="pill">v1.0</div>
+    </div>
     <div class="content">
-      <button id="acceptBtn" class="primary-button">Accept All Connections</button>
+      <button id="acceptBtn" class="primary-button">
+        <span class="button-text">Accept All</span>
+        <span class="button-icon">→</span>
+      </button>
       <div id="status" class="status"></div>
       <div id="spinner" class="spinner hidden"></div>
+    </div>
+    <div class="footer">
+      <p>Made with ♥️ by Ayan</p>
     </div>
   </div>
   <script src="popup.js"></script>
